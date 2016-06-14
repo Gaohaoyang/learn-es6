@@ -1,1 +1,3 @@
-let a = 1
+let a
+
+var b
