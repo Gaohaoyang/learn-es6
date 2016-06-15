@@ -1,3 +1,0 @@
-let a
-
-var b
