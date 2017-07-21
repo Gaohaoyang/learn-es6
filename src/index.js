@@ -1,4 +1,7 @@
-/*eslint no-console: ["error", { allow: ["warn", "error","log"] }] */
 
-let a = 'aaa'
+const a = 'aaa'
 console.log(a)
+console.log('why')
+console.log('lujing???');
+
+aaa

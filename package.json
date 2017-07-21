@@ -4,7 +4,9 @@
   "description": "learn ES6, and do some practice.",
   "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "webpack-dev-server --open --progress",
+    "dev": "webpack -w --progress",
+    "build": "webpack -p --progress"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,21 @@
   },
   "homepage": "https://github.com/Gaohaoyang/learn-es6#readme",
   "devDependencies": {
-    "webpack": "^3.3.0"
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
   }
 }
