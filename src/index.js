@@ -1,7 +1,4 @@
+import ColorPoint from './ColorPoint'
 
-const a = 'aaa'
-console.log(a)
-console.log('why')
-console.log('lujing???');
-
-aaa
+const c = new ColorPoint(666)
+console.log(c.x)
